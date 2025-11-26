@@ -101,9 +101,10 @@ public class ejercicio2 {
                  System.out.println("NUMERO INCORRECTO");
                  break;
          }
-         }while (opcion != 1 && opcion != 2)  ;  
-         
          tabla(_matriz, suma);
+         }while (opcion == 1 || opcion == 2)  ;  
+         
+         
          
          
      }
